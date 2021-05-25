@@ -1,3 +1,4 @@
+/* base */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -8,6 +9,7 @@ body {
     background-color: rgb(246, 248, 249);
 }
 
+/* header */
 header {
     height: 70px;
     background-color: white;
@@ -32,7 +34,7 @@ header {
     margin: 0 auto;
     margin-top: 40px;
 }
-
+/* pulsanti */
 .pulsante_task {
     background-color: rgb(71, 173, 241);
     border-radius: 5px;
@@ -53,6 +55,77 @@ header {
     height: 30px;
     width: 100px;
 }
-.bottoni {
+.bottoni, .Lista {
     padding: 10px 50px;
 }
+
+hr {
+    border: 1px solid #f6f8f9;
+}
+/* lista */
+ul {
+    list-style-type: none;
+    line-height: 50px;
+}
+
+.cerchio_spunta_check {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 2px solid #64C0A9;
+    color: #64C0A9;
+    padding-left: 3px;
+    padding-right: 3px;
+    height: 10px;
+    width: 10px;
+    line-height: 15px;
+    vertical-align: middle;
+}
+
+.cerchio_spunta_cross {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 2px solid #ff0000;
+    color: #ff0000;
+    padding-left: 2px;
+    padding-right: 2px;
+    height: 10px;
+    width: 10px;
+    line-height: 15px;
+    vertical-align: middle;
+}
+/* etichette */
+.etichetta {
+    background-color: rgb(71, 173, 241);
+    border-radius: 15px;
+    border: 0px;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px; 
+    height: 30px;
+    width: 80px;
+}
+
+.blu {
+    background-color: rgb(71, 173, 241);
+}
+
+.viola {
+    background-color: #9C72E4;
+}
+
+.verde {
+    background-color: #64C0A9;
+}
+
+.arancione {
+    background-color: orange;
+}
+
+.viola2 {
+    background-color: #D863A1;
+}
+
+.verde2 {
+    background-color: #B0C926;
+}
+
