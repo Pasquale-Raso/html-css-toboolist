@@ -9,6 +9,7 @@ body {
 }
 
 header {
+    height: 70px;
     background-color: white;
     padding: 10px;
 
@@ -16,8 +17,42 @@ header {
 
 .titolo {
     display: inline-block;
+    font-size: 38px;
+    font-family: sans-serif;
+    vertical-align: middle;
 }
 
 #logo {
     vertical-align: middle;
+}
+
+.contenitore {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.pulsante_task {
+    background-color: rgb(71, 173, 241);
+    border-radius: 5px;
+    border: 0px;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px; 
+    height: 30px;
+    width: 80px;
+}
+.pulsante_section {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: grey;
+    font-weight: bold;
+    padding: 5px; 
+    height: 30px;
+    width: 100px;
+}
+.bottoni {
+    padding: 10px 50px;
 }
